@@ -17,9 +17,9 @@ class DatabaseSeeder extends Seeder
         //$this->call(UsersAndNotesSeeder::class);
         $this->call('UsersAndNotesSeeder');
         $this->call('MenusTableSeeder');
-        $this->call('FolderTableSeeder');
-        $this->call('ExampleSeeder');
-        $this->call('BREADSeeder');
-        $this->call('EmailSeeder');
+//        $this->call('FolderTableSeeder');
+//        $this->call('ExampleSeeder');
+//        $this->call('BREADSeeder');
+//        $this->call('EmailSeeder');
     }
 }
