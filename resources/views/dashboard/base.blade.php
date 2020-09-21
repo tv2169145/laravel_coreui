@@ -73,7 +73,7 @@
 
         <main class="c-main">
 
-          @yield('content') 
+          @yield('content')
 
         </main>
         @include('dashboard.shared.footer')
