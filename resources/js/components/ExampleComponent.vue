@@ -6,7 +6,7 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                        {{ msg }}
+                        {{ msg + loginUser }}
                     </div>
                 </div>
             </div>
@@ -16,9 +16,12 @@
 
 <script>
     export default {
+        props:[
+            'loginUser',
+        ],
         data() {
             return {
-                msg: "hello jimmy",
+                msg: "Welcome! ",
             };
         },
         mounted() {
